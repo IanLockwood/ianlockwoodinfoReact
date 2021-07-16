@@ -11,10 +11,10 @@ import { TwitterTweetEmbed } from 'react-twitter-embed';
 
 function App() {
   return (
-    <Box m={5}>
+    <Box p={5} style={{"backgroundColor":"#FFD1DC"}}>
       <Box mb={3}>
         <Typography variant='h1' align='center' style={{"fontFamily":"Georgia"}}>Ian Lockwood</Typography>
-        <Typography variant='h4' align='center'>Comedian • Writer • Pop Star</Typography>
+        <Typography variant='h4' align='center' style={{"fontFamily":"Georgia"}}>Comedian • Writer • Pop Star</Typography>
       </Box>
       <Grid container spacing={3}>
         <Grid item xs={12} md={6}>
