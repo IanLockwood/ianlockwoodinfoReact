@@ -1,5 +1,5 @@
 import './App.css';
-import slidePic from './slidePic.jpg'
+import mainPic from './mainPic.jpg'
 import {
   Box,
   Grid,
@@ -18,10 +18,10 @@ function App() {
       </Box>
       <Grid container spacing={3}>
         <Grid item xs={12} md={6}>
-          <img src={slidePic} className="half-pic" alt="ian on the slide" />
+          <img src={mainPic} className="half-pic" alt="ian on the slide" />
         </Grid>
         <Grid item xs={12} md={6} style={{"minHeight":"300px"}}>
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Q_1O6Ler46I" title="(I Don't Think This Is) The Club" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/92GlOxn4t_M" title="Your Dad" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Grid>
       </Grid>
 
@@ -29,7 +29,7 @@ function App() {
         <Grid item xs={12} sm={9}>
           <Paper elevation={3}>
             <Box p={2}>
-              <Typography>Ian Lockwood is a Brooklyn-based comedian and pop musician. He is the co-host of Hot Teens at the Brooklyn Comedy Collective and has had recurring appearances on the Earwolf podcast Earwolf Presents. Ian’s second studio EP, Your Dad, drops this Fall, and includes five tracks in the comedy-pop style that has become his signature in the Brooklyn alt scene. He is an alumni of NYU Tisch's Experimental Theatre Wing, Second City's Comedy Studies, UCB, and The Annoyance Theatre NY, and his shows have been covered in Time Out, Brokelyn, Brooklyn Paper, Bedford+Bowery, and more.</Typography>
+              <Typography>Ian Lockwood is a Brooklyn-based comedian and pop musician. He is the host of <i>Ian Lockwood's Girlfriend Pageant</i> at the Brooklyn Comedy Collective and has had recurring appearances on the Earwolf podcast <i>Earwolf Presents</i>. Ian recently released his second studio EP, <i>Not Like Other Girls</i>, comprised of five tracks in the comedy-pop style that has become his signature in the Brooklyn alt scene. He is an alumni of NYU Tisch's Experimental Theatre Wing, Second City's Comedy Studies, UCB, and The Annoyance Theatre NY, and his shows have been covered in Time Out, Brokelyn, Brooklyn Paper, Bedford+Bowery, and more.</Typography>
             </Box>
           </Paper>
         </Grid>
@@ -47,13 +47,25 @@ function App() {
 
       <Grid container spacing={3}>
         <Grid item xs={12} sm={4} style={{"minHeight":"300px"}}>
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TVAEsvzlEbU" title="YouTube video player 1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/v_av7qJCtPM" title="No Homo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Grid>
         <Grid item xs={12} sm={4} style={{"minHeight":"300px"}}>
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/unVOmaQWQhc" title="YouTube video player 2" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RaiRqv3jD7s" title="Not Like Other Girls" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Grid>
         <Grid item xs={12} sm={4} style={{"minHeight":"300px"}}>
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UG4KSX1EoLU" title="YouTube video player 3" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Q_1O6Ler46I" title="(I Don't Think This Is) The Club" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </Grid>
+      </Grid>
+
+      <Grid container spacing={3}>
+        <Grid item xs={12} sm={4} style={{"minHeight":"300px"}}>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/TVAEsvzlEbU" title="YouTube video player 4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </Grid>
+        <Grid item xs={12} sm={4} style={{"minHeight":"300px"}}>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/unVOmaQWQhc" title="YouTube video player 5" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        </Grid>
+        <Grid item xs={12} sm={4} style={{"minHeight":"300px"}}>
+          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UG4KSX1EoLU" title="YouTube video player 6" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </Grid>
       </Grid>
 
