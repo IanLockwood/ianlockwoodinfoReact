@@ -26,7 +26,7 @@ function App() {
       </Grid>
 
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={9}>
+        <Grid item xs={12}>
           <Paper elevation={3}>
             <Box p={2}>
               <Typography>Ian Lockwood is a Brooklyn-based comedian and pop musician. He is the host of <i>Ian Lockwood's Girlfriend Pageant</i> at Union Hall and has had recurring appearances on the Earwolf podcast <i>Earwolf Presents</i>. Ian recently released his second studio EP, <i>Not Like Other Girls</i>, comprised of five tracks in the comedy-pop style that has become his signature in the Brooklyn alt scene. He is an alumni of NYU Tisch's Experimental Theatre Wing, Second City's Comedy Studies, UCB, and The Annoyance Theatre NY, and his shows have been covered in Time Out, Brokelyn, Brooklyn Paper, Bedford+Bowery, and more.</Typography>
